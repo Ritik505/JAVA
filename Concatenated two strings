@@ -1,0 +1,12 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter First string: ");
+        String first = sc.nextLine();
+        System.out.print("Enter second string: ");
+        String second = sc.nextLine();
+        String concat = first + " " + second;
+        System.out.println("Concatenated String:  "+concat);   
+    }
+}
