@@ -1,0 +1,17 @@
+class A {
+    void show() {
+        System.out.println("This is the no-parameter method.");
+    }
+
+    void show(int a) {
+        System.out.println("This is the method with one parameter: " + a);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        A obj = new A();
+        obj.show();
+        obj.show(10); 
+    }
+}
